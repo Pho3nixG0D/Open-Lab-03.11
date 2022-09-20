@@ -5,7 +5,7 @@ namespace Open_Lab_03._11
     public class Checker
     {
         public bool IsPalindrome(string str)
-        {
+        
             {
                 string first = str.Substring(0, str.Length / 2);
                 char[] arr = str.ToCharArray();
@@ -17,6 +17,5 @@ namespace Open_Lab_03._11
 
                 return first.Equals(second);
             }
-        } 
     }
 }
