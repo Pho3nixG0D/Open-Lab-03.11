@@ -17,5 +17,6 @@ namespace Open_Lab_03._11
 
                 return first.Equals(second);
             }
+
     }
 }
